@@ -1,0 +1,105 @@
+.footerContainer {
+  display: flex;
+  width: 100%;
+  padding: 80px 16px 32px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 69px;
+  background: #f3f6f5;
+}
+
+.firstContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.containerLogo img {
+  width: auto;
+  height: 36px;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.rowSocials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 36px;
+}
+
+.imgSocial {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.containerDirection {
+  display: flex;
+  flex-direction: column;
+}
+.text1 {
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.containerDirection p {
+  color: #07484a;
+
+  font-size: 1.8rem;
+  font-style: normal;
+  line-height: normal;
+}
+
+.secondContainer,
+.thirdContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.containerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.titleLinks {
+  color: #07484a;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.list {
+  padding: 0;
+}
+
+.list li {
+  list-style: none;
+  color: #07484a;
+  font-size: 1.4rem;
+  font-style: normal;
+  margin: 0 0 18px 0;
+  font-weight: 400;
+}
+
+.copy {
+  color: #07484a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}

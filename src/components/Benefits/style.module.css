@@ -1,0 +1,16 @@
+.containerBenefits {
+  display: flex;
+  width: 100%;
+  padding: 80px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 104px;
+  background: #e0eff6;
+}
+
+.principalTitle {
+  color: #07484a;
+  text-align: center;
+
+  font-size: 28px;
+}
